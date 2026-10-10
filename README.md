@@ -2,6 +2,9 @@
 
 **Full-Stack Software Engineer · FinTech & Payments** · Pune, India
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-madhuri--d--pawar-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/madhuri-d-pawar)
+[![Email](https://img.shields.io/badge/Email-pawarmadhuri667%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:pawarmadhuri667@gmail.com)
+
 I'm a full-stack engineer with 4 years of experience building scalable, secure fintech and healthcare (EHR) applications with React, Angular, NestJS, PostgreSQL, and AWS. I currently work at **BTB (Be The Bank)**, an Israeli fintech, where I build payment and verification systems on **MASAV's ISO 20022 rail**, own system design for new features, and build AI-assisted engineering workflows with custom Claude skills, plugins, and agents.
 
 ---
@@ -70,4 +73,4 @@ Real-time stock price dashboard that streams ~100 ticks/sec over WebSocket and r
 
 ---
 
-📫 Reach me through [GitHub](https://github.com/Madhuri-Pawar)
+📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/madhuri-d-pawar) · [pawarmadhuri667@gmail.com](mailto:pawarmadhuri667@gmail.com)
