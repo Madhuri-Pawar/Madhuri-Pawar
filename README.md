@@ -1,14 +1,24 @@
 # Hi, I'm Madhuri Pawar 👋
 
-**Full-Stack Engineer · FinTech & Payments** · Pune, India
+**Full-Stack Software Engineer · FinTech & Payments** · Pune, India
 
-I build reliable payment systems and the tooling around them: payment APIs, ISO 20022 Request-to-Pay flows, production-issue investigation, and AI agents that help engineers diagnose and review payment code faster.
-
-**Stack:** TypeScript · NestJS · Node.js · React · PostgreSQL · AWS · WebSockets · Claude Code · MCP · ISO 20022
+I'm a full-stack engineer with 4 years of experience building scalable, secure fintech and healthcare (EHR) applications with React, Angular, NestJS, PostgreSQL, and AWS. I currently work at **BTB (Be The Bank)**, an Israeli fintech, where I build payment and verification systems on **MASAV's ISO 20022 rail**, own system design for new features, and build AI-assisted engineering workflows with custom Claude skills, plugins, and agents.
 
 ---
 
-## Featured projects
+## 🚀 What I've built
+
+- **Bank-account ownership verification:** a standalone microservice that uses ISO 20022 messaging over MASAV to confirm account ownership directly with banks in ~5–10 seconds, replacing manual document uploads. It delivers results through SQS webhook push with a polling fallback.
+- **Request-to-Pay instant payments:** a business sends a payment request, the customer approves it in their own bank, and an instant credit settles it. Idempotent requests, webhook push plus status pull, retries, and a circuit breaker ensure every request ends as paid, failed, cancelled, or expired.
+- **Security hardening:** RSA-PSS/SHA-256 signing, Digest Authentication, XXE- and ReDoS-safe XML parsing, AWS Secrets Manager key management, idempotency constraints, and race-free concurrent processing.
+- **Payment automation:** an end-to-end broker commission payout system (bank transfers and wallet payouts) with fix-and-retry for failures, which turned a month-long manual process into a one-click approval.
+- **Payment gateway integration:** led the Pelecard integration with idempotent flows, retry strategies, a reconciliation engine, a transaction orchestrator, and a partner sandbox.
+- **Compliance engine:** a matrix-driven engine that gates deposits, withdrawals, and transfers for a 50K+ user platform, combined with AU10TIX identity verification.
+- **Platform modernization:** led the migration of a legacy .NET/KnockoutJS platform to React and NestJS.
+
+---
+
+## 📂 Featured projects
 
 ### 🤖 [fintech-agent-skills](https://github.com/Madhuri-Pawar/fintech-agent-skills)
 Claude Code plugins and AI agent skills for fintech engineering.
@@ -30,7 +40,29 @@ Real-time stock price dashboard that streams ~100 ticks/sec over WebSocket and r
 
 ---
 
-## What I focus on
+## 🛠️ Tech stack
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | TypeScript, JavaScript (ES6+), HTML5, CSS3 |
+| **Frontend** | React, React Query, Redux, Angular, NgRx, RxJS, Angular Material, Tailwind CSS |
+| **Backend** | NestJS, Node.js, TypeORM, REST APIs, Microservices, SQS/SNS event streaming, OAuth 2.0 / JWT |
+| **Payments & Security** | ISO 20022 (pain / pacs / camt), MASAV, Request-to-Pay, mTLS, RSA-PSS signing, Idempotency, Transactional Outbox |
+| **Data** | PostgreSQL, MongoDB, Caching |
+| **Cloud & DevOps** | AWS (Cognito, EC2, ECR, S3, Lambda, SNS, SQS, DMS, CloudWatch), Kubernetes, Docker, Argo Workflows, Nx, GitLab CI/CD, SonarQube |
+| **Testing & Observability** | Jest, unit & integration testing, SigNoz, CloudWatch |
+| **AI Workflows** | Claude API, Custom Claude Skills & Plugins, MCP Servers, AI Agents, Cursor Subagents |
+
+---
+
+## 💼 Experience
+
+- **Associate Software Engineer, BTB (Be The Bank)**, FinTech, Israel · Aug 2025 to present
+- **Software Engineer, Thinkitive Technologies**, Pune · May 2022 to Jul 2025: grew from frontend developer to full-stack engineer, building multi-tenant healthcare (EHR) portals and real-estate products with Angular, React, Node.js, and MongoDB.
+
+---
+
+## 🎯 What I focus on
 
 - **Payment correctness:** idempotency, safe retries, reconciliation, and never charging twice.
 - **Evidence-driven debugging:** root causes backed by code, logs, and data, not guesses.
